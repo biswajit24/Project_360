@@ -1,0 +1,223 @@
+
+
+.container{
+    width: 1140px;
+    margin: 0px auto;
+}
+.banner{
+    background: #1f2831;
+    width: 100%;
+    height: auto;
+}
+.navbar-expand-lg .navbar-collapse {
+    justify-content: flex-end;
+}
+.nav-item > .nav-link{
+    color: #fff;
+}
+.nav-item > .nav-link:hover{
+    color: #d6de28;
+}
+.nav-item > .nav-link:hover::before{
+    color: #d6de28;
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: -2px;
+    width: 100%;
+    height: 3px;
+    background: #d6de28;
+    transition: 0.5s;
+    border-radius: 10px;
+}
+.home_icon{
+    color: #d6de28;
+    position: relative;
+}
+.home_icon::after{
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: -2px;
+    width: 20px;
+    height: 3px;
+    background: #d6de28;
+    margin-top: 12px;
+}
+.phone_back{
+    display: flex;
+    flex-wrap: wrap;
+}
+.phone{
+    width: 30px;
+    height: 30px;
+    background: #01aad1;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.call{
+    color: #fff;
+    background: transparent;
+}
+.nav-item{
+    display: flex;
+    align-items: center;
+}
+.number{
+    color: #01aad1;
+    margin: 0px 5px;
+}
+.number:hover{
+    text-decoration: none;
+    color: #fff;
+}
+.text_1, .text_2{
+    color: #fff;
+    margin-bottom: 20px;
+}
+.text_3{
+    color: #fff;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.schedule{
+    background: #d6de28;
+    border-radius: 5px;
+}
+.youtube_back{
+    background-image: url(../images/youtube_img.jpg);
+    background-repeat: no-repeat;
+    position: relative;
+    width: 110px;
+    height: 140px;
+    display: grid;
+    place-items: center;
+    border: 6px solid #ccc;
+    border-radius: 5px;
+    position: absolute;
+    top: 30%;
+    left: 78%;
+}
+.youtube_click{
+    width: 30px;
+    height: 30px;
+    background: #d6de28;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+}
+.youtube_click > a{
+    color: #1f2831;
+}
+.fa-play{
+    background: none;
+}
+.building_portion{
+    position: relative;
+}
+.images{
+    width: 87%;
+}
+.img_portion{
+    display: grid;
+    place-items: center;
+}
+.right_portion{
+    border-right: 1px solid #ccc;
+}
+h4{
+    position: relative;
+    top: 10px;
+}
+.box{
+    width: 85%;
+    height: 90px;
+    background: linear-gradient(110deg, #01aad1, #02b3dd);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+}
+.box_2{
+    width: 85%;
+    height: 90px;
+    background: linear-gradient(110deg, #d6de28, #dfe72f);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+}
+.like_box{
+    width: 60px;
+    height: 60px;
+    background: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.upper_portion{
+    position: relative;
+    top: 60px;
+}
+.like_icon{
+    color: #02b3dd;
+    font-size: 35px !important;
+}
+.box_content{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.num{
+    font-size: 28px;
+    position: relative;
+    top: 7px;
+    color: #fff;
+}
+.num_2{
+    font-size: 28px;
+    position: relative;
+    top: 7px;
+    color: #000;
+}
+
+.text_5{
+    color: #fff;
+}
+.like_change{
+    color: #d6de28;
+    font-size: 35px !important;
+}
+.back_shape{
+    width: 100%;
+    height: 100vh;
+    background: #084d5d;
+    clip-path: polygon(0 26%, 100% 4%, 100% 76%, 0% 100%);
+    position: relative;
+    top: -60px;
+}
+.user_details{
+    background: #fff;
+    display: grid;
+    place-items: center;
+    box-shadow: 2px 9px 8px rgba(0,0,0,0.5);
+}
+
+.link > a{
+    margin: 0px 15px;
+    text-decoration: none;
+    color: #000;
+    text-transform: capitalize;
+}
+.link > a:hover{
+    text-decoration: none;
+    color: #565656;
+}
+
+
